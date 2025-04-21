@@ -1,5 +1,3 @@
-FROM odoo:16.0
-
-LABEL MAINTAINER Daniel Moreno <hola@bigodoo.com>
-USER root
-
+FROM odoo:18  
+EXPOSE 8069  
+CMD ["odoo"]
